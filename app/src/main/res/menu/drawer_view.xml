@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<!--cada item e' um grupo -->
+    <item
+        android:id="@+id/group_profile"
+        android:title="Sobre mim"
+
+        ><menu>
+        <item
+            android:id="@+id/nav_home"
+            android:checkable="true"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_historico"
+            android:icon="@drawable/ic_historico"
+            android:title="Histórico" />
+        <item
+            android:id="@+id/nav_promocao"
+            android:icon="@drawable/ic_promocao"
+            android:title="Promoção" />
+    </menu>
+    </item>
+
+
+
+<item
+    android:id="@+id/group_congiguracoes"
+    android:title="Configurações">
+
+<menu>
+
+        <item
+            android:id="@+id/nav_pagamento"
+            android:icon="@drawable/ic_pagamento"
+            android:title="Conta" />
+        <item
+            android:id="@+id/nav_definicoes"
+            android:icon="@drawable/ic_difinicoes"
+            android:title="Definição" />
+        <item
+            android:id="@+id/nav_feedback"
+            android:icon="@drawable/ic_feedback"
+            android:title="Feedback" />
+        <item
+            android:id="@+id/nav_termos_de_uso"
+            android:icon="@drawable/ic_home"
+            android:title="Termos de Uso" />
+
+
+
+
+    </menu>
+
+
+
+    </item>
+
+    <item
+        android:id="@+id/group_pedir_boleia"
+        android:title="Boleia">
+
+        <menu>
+            <item
+                android:id="@+id/nav_pedir_boleia"
+                android:icon="@drawable/ic_boleia"
+                android:title="Pedir"
+
+                />
+
+        </menu>
+
+    </item>
+</menu>

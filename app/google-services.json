@@ -1,0 +1,191 @@
+{
+  "project_info": {
+    "project_number": "709758989076",
+    "firebase_url": "https://mbelamova-bf256.firebaseio.com",
+    "project_id": "mbelamova-bf256",
+    "storage_bucket": "mbelamova-bf256.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:709758989076:android:846955606296a772",
+        "android_client_info": {
+          "package_name": "com.example.sutui.chart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "709758989076-pkkn61ldi1rc9aicfeao47ibamcl5evg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sutui.chart",
+            "certificate_hash": "dc3618531dd77c3d59004871f78758d086716911"
+          }
+        },
+        {
+          "client_id": "709758989076-e4g2jq7bfk6btjkfta3o0ec1actj4m36.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8Tynhvv49JEmH5yDk9BC8TMJ4JpwdGnY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "709758989076-5l74n18iuicgesmbq5f1ec0t06jshnqg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:709758989076:android:030eb743c568a680",
+        "android_client_info": {
+          "package_name": "com.sample.sishin.maplocation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "709758989076-lksu77src74ok1klro1v32fr11ch1tvc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sample.sishin.maplocation",
+            "certificate_hash": "d20bef935d85de76f31495366f57d1312703bbd4"
+          }
+        },
+        {
+          "client_id": "709758989076-e4g2jq7bfk6btjkfta3o0ec1actj4m36.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8Tynhvv49JEmH5yDk9BC8TMJ4JpwdGnY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "709758989076-5l74n18iuicgesmbq5f1ec0t06jshnqg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:709758989076:android:b68da0cf10193c23",
+        "android_client_info": {
+          "package_name": "mmconsultoria.co.mz.mbelamova"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "709758989076-7j76sue4ilp0tl8sui5q2jtoohfvg3ul.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mmconsultoria.co.mz.mbelamova",
+            "certificate_hash": "45cf3568d3a6c018b83115cd563d67432e828be2"
+          }
+        },
+        {
+          "client_id": "709758989076-hp9s1qe2dcidsnct183452080bu4ssq0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mmconsultoria.co.mz.mbelamova",
+            "certificate_hash": "dc3618531dd77c3d59004871f78758d086716911"
+          }
+        },
+        {
+          "client_id": "709758989076-13nmfovol7lkih1dvv2uadgcfj29lqko.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mmconsultoria.co.mz.mbelamova",
+            "certificate_hash": "d20bef935d85de76f31495366f57d1312703bbd4"
+          }
+        },
+        {
+          "client_id": "709758989076-tr5lvu39jrrjp3u3go934itih0l19ds6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mmconsultoria.co.mz.mbelamova",
+            "certificate_hash": "7701be2b281057f42069c09366ba421609281c90"
+          }
+        },
+        {
+          "client_id": "709758989076-3qak67q23ctup628h95s3gmtml3g42rd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mmconsultoria.co.mz.mbelamova",
+            "certificate_hash": "d642dd1279a7f947713bf4d75c831df27a070616"
+          }
+        },
+        {
+          "client_id": "709758989076-bgtbf29plq71agp6n68c4usqq0ga7s4m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mmconsultoria.co.mz.mbelamova",
+            "certificate_hash": "df1e2c4ab1afd94d49a8e45b56ae10efc9287298"
+          }
+        },
+        {
+          "client_id": "709758989076-80078k05acghf57rvf4stqeud1nf6m4j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mmconsultoria.co.mz.mbelamova",
+            "certificate_hash": "db8ccd42e599bf8daf6f624cfbe411e0ad752422"
+          }
+        },
+        {
+          "client_id": "709758989076-e4g2jq7bfk6btjkfta3o0ec1actj4m36.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8Tynhvv49JEmH5yDk9BC8TMJ4JpwdGnY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "709758989076-5l74n18iuicgesmbq5f1ec0t06jshnqg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,154 @@
+<resources>
+    <string name="app_name">MbelaMova</string>
+
+
+    <string name="label_google_sign_in">Firebase + Google Sign In</string>
+    <string name="desc_google_sign_in">Use a Google Sign In credential to authenticate with Firebase.</string>
+
+    <string name="label_facebook_login">Firebase + Facebook Login</string>
+    <string name="desc_facebook_login">Use a Facebook Login credential to authenticate with Firebase.</string>
+
+    <string name="label_twitter_login">Firebase + Twitter Login</string>
+    <string name="desc_twitter_login">Use a Twitter Login credential to authenticate with Firebase.</string>
+
+    <string name="label_emailpassword">Email/Password Authentication</string>
+    <string name="desc_emailpassword">Use an email and password to authenticate with Firebase.</string>
+
+    <string name="label_passwordless">Passwordless Authentication</string>
+    <string name="desc_passwordless">Use only an email to authenticate with Firebase.</string>
+
+    <string name="label_phone_auth">Phone Number Authentication</string>
+    <string name="desc_phone_auth">Use a phone number to authenticate with Firebase.</string>
+
+    <string name="label_anonymous_auth">Anonymous Authentication</string>
+    <string name="desc_anonymous_auth">Sign in anonymously and then later upgrade to a full Firebase Auth user.</string>
+
+    <string name="label_custom_auth">Custom Authentication</string>
+    <string name="desc_custom_auth">Use a custom token signed by your own server to authenticate with Firebase.</string>
+
+    <string name="label_firebase_ui">FirebaseUI Auth</string>
+    <string name="desc_firebase_ui">Use the FirebaseUI-Android library to authenticate with Firebase.</string>
+
+    <string name="hint_user_id">User ID</string>
+    <string name="get_custom_token">Get Token</string>
+    <string name="sign_in">Sign In</string>
+    <string name="create_account">Create Account</string>
+    <string name="send_link">Send Link</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="verify_email">Verify Email</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="loading">Por favor , aguarde ...</string>
+    <string name="custom_token">Custom Token</string>
+    <string name="signed_in">Signed In</string>
+    <string name="signed_out">Signed Out</string>
+    <string name="token_null">Token: null</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="desc_firebase_lockup">Firebase logo and name</string>
+    <string name="auth_failed">Authentication failed</string>
+    <string name="start_phone_auth">Start</string>
+    <string name="verify_phone_auth">Verify</string>
+    <string name="resend_phone_auth">Resend</string>
+    <string name="hint_phone_number">Phone Number</string>
+    <string name="hint_verification_code">Verification Code</string>
+    <string name="status_code_sent">Code Sent</string>
+    <string name="status_verification_failed">Verification failed</string>
+    <string name="status_verification_succeeded">Verification succeeded</string>
+    <string name="status_sign_in_failed">Sign-in failed</string>
+    <string name="instant_validation">(instant validation)</string>
+
+    <string name="firebase_status_fmt">Firebase User: %s</string>
+    <string name="firebase_user_management">Firebase User Management</string>
+
+    <string name="google_status_fmt">Google User: %s</string>
+    <string name="google_title_text">Google Sign In</string>
+
+    <string name="facebook_status_fmt">Facebook User: %s</string>
+    <string name="facebook_title_text">Facebook Login</string>
+
+    <string name="emailpassword_status_fmt">Email User: %1$s (verified: %2$b)</string>
+    <string name="emailpassword_title_text">Email and Password</string>
+
+    <string name="passwordless_status_fmt">Email User: %1$s (verified: %2$b)</string>
+    <string name="passwordless_title_text">Passwordless Sign In</string>
+    <string name="status_email_not_sent">Send link to your email to get started.</string>
+    <string name="status_email_sent">Link sent, check your email to continue.</string>
+    <string name="status_link_found">Link received, enter email to sign in.</string>
+
+    <string name="phone_title_text">Phone Number</string>
+
+    <string name="twitter_status_fmt">Twitter User: %s</string>
+    <string name="twitter_title_text">Twitter Login</string>
+
+    <string name="firebaseui_status_fmt">Firebase User: %s</string>
+    <string name="firebaseui_title_text">FirebaseUI Auth</string>
+
+    <string name="id_fmt">User ID: %s</string>
+    <string name="email_fmt">Email: %s</string>
+    <string name="title_activity_maps">Menu Principal</string>
+    <string name="drawer_open">open</string>
+    <string name="drawer_close">close</string>
+
+    <string name="hint_numero">Numero de telefone</string>
+    <string name="hint_codigo">Codigo de verificacao</string>
+
+    <!-- Novas Strings -->
+    <string name="textoPrincipal">O SLOGAN DA CENA</string>
+    <string name="login">Login</string>
+    <string name="cadastro">Registrar-se</string>
+    <string name="asknumber">Qual é o número do seu celular?</string>
+    <string name="info">Enviaremos um código para verificar o seu número </string>
+    <string name="recovery">Já possui uma conta. Deseja recuperá-la?</string>
+    <string name="askcode">Qual é o código?</string>
+    <string name="contactoText">Por favor insira o seu número de telemóvel de modo a receber o código de verificação.</string>
+    <string name="verificacaoText">Por favor insira o código de verificação para terminar a autenticação.</string>
+    <string name="not_received">Não recebi o código de verificação</string>
+    <string name="test_sms">Insira o número do seu telemóvel e receberá um código de verificação para concluir a autententicação</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="sent_to">Enviado para +258841234567</string>
+    <string name="reenviar_codigo">Reenviar código</string>
+    <string name="string_historio">Histórico de Viagem</string>
+
+    <string name="name">Nome</string>
+    <string name="email">email</string>
+    <string name="phone_number">Número de celular</string>
+    <string name="account_status">estado da conta</string>
+    <string name="legal_information">Informação legal</string>
+    <string name="log_out">Sair</string>
+    <string name="msgfeed">Deixe a sua opinião acerca do aplicativo para melhorar a experiência de utilizador</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur laoreet non purus in tincidunt. Aliquam a odio metus. Nam cursus purus sed eros congue, id gravida risus finibus. Phasellus nulla leo, laoreet in molestie at, vulputate ac quam. Sed efficitur semper blandit. Quisque ligula neque, euismod lacinia aliquet in, facilisis sit amet diam. Praesent sed elit vitae diam egestas semper eget nec lacus. Morbi eget ante non nisl aliquam tincidunt ut ut eros. Aliquam lacus lacus, tempus at odio id, ullamcorper auctor ex. Donec vitae magna sed dui pellentesque interdum ac in massa. Vivamus euismod dignissim eleifend. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+
+Donec placerat euismod turpis, aliquet posuere magna condimentum non. In finibus molestie lobortis. Morbi ac turpis nulla. Duis sed rhoncus mauris, quis commodo erat. Sed egestas ante mi, eget faucibus tellus aliquam vitae. Phasellus euismod ornare dui et dignissim. Proin at justo at magna congue tempus ullamcorper sed odio. Suspendisse est risus, laoreet vitae ultrices sed, sollicitudin vel lectus. Phasellus sagittis condimentum elit, a lobortis nulla porttitor in. Duis mattis cursus quam, vitae blandit tellus faucibus et. Morbi ut sagittis ligula. Suspendisse volutpat semper pretium. Phasellus egestas libero ligula, vel luctus mi feugiat eu. Cras eleifend eros auctor facilisis tincidunt. Donec placerat consectetur porttitor. Curabitur tincidunt tellus nulla, a ullamcorper metus viverra eu.
+
+Nunc interdum venenatis risus vitae eleifend. Vivamus ac egestas est, a venenatis felis. Sed in tellus in nulla aliquam ultricies et a mi. In semper rutrum nisi, facilisis cursus ligula varius sit amet. Sed ligula lacus, commodo ut nisl pharetra, tincidunt tincidunt massa. Donec consectetur, augue tempor pharetra eleifend, lectus turpis viverra ante, ac volutpat metus erat nec felis. Morbi viverra iaculis mi at tempor.
+
+Cras nec tortor ut enim rhoncus rhoncus. Mauris ultricies sodales consectetur. Cras tincidunt tellus lacus, ultrices vestibulum erat venenatis sed. Nullam tempor sed lorem lobortis volutpat. Mauris posuere magna quis vestibulum commodo. Nam molestie et massa nec egestas. Fusce gravida accumsan scelerisque. Nam vel lacus velit. Praesent eget diam ipsum.
+
+Maecenas lorem tortor, pharetra sed convallis ut, malesuada et risus. Maecenas condimentum leo vitae libero tristique mollis. Nam interdum risus lacus, at fringilla turpis consequat ut. Donec et faucibus nulla. Donec ac lorem vel tellus ultricies cursus at in augue. Morbi ornare turpis tellus, a pellentesque turpis consequat sit amet. Fusce scelerisque tempor ultrices. Duis interdum, metus a tempus aliquet, risus mi consectetur ipsum, vel egestas odio diam ut purus. Pellentesque eu erat interdum, consequat eros quis, elementum erat. Fusce laoreet placerat quam rutrum aliquam. Sed vehicula mi quis luctus euismod. Sed metus nulla, pellentesque id magna in, rhoncus sollicitudin elit. Mauris tristique eros vel lacus suscipit congue.</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="write_number">Escreva um número</string>
+    <string name="fill_text_message">Preencha o campo com o código recebido por sms</string>
+    <string name="cannot_be_empty">Não pode estar vazio</string>
+    <string name="username">Nome do utilizador</string>
+    <string name="google_direction_api">AIzaSyCenBByDsi79HgoR841VN8KFHnOrrsVL6U</string>
+    <string name="title_activity_client_map">ClientMapActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="network_error">Erro de rede</string>
+    <string name="change_name_text">Trocar Nome</string>
+    <string name="email_text">email</string>
+    <string name="Destiny">Destino</string>
+    <string name="location_dialog_msg">Verifique os serviços de localização</string>
+    <string name="location_settings">habilitar localização</string>
+    <!--AIzaSyAjcAUtwm3uHeHibHTo-PWKF3j7cijhjTA-->
+</resources>

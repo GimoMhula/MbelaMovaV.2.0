@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.PromoActivity"
+    android:background="@drawable/gradient_header"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+
+        >
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/ic_brightness_5_black_24dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Adicione o seu codigo para ganhar bonus"
+            android:textColor="#fff"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            />
+
+       <EditText
+           android:layout_width="300dp"
+           android:layout_height="50dp"
+           android:hint="Codigo de bonus"
+           android:layout_gravity="center"
+           android:textColorHint="#fff"
+           android:textColor="#fff"
+           android:layout_marginTop="10dp"
+           android:background="@drawable/edit_config"
+
+           />
+
+
+        <Button
+        android:layout_width="300dp"
+            android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:id="@+id/fButton"
+        android:text="Convidar os meus amigos"
+            android:background="@drawable/button"
+        android:shadowColor="@color/fbutton_color_concrete"
+
+            android:layout_marginTop="30dp"
+        android:height="5dp"
+            android:textColor="#fff"
+
+            android:drawableLeft="@drawable/ic_screen_share_black_24dp"
+
+    />
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_gravity="center"
+
+            android:layout_height="wrap_content"
+            android:id="@+id/fButton2"
+            android:text="Ganhar bonus"
+            android:textColor="#fff"
+            android:layout_marginTop="10dp"
+            android:shadowColor="@color/fbutton_color_concrete"
+            android:background="@drawable/button"
+            android:drawableLeft="@drawable/ic_navigation_black_24dp"
+            />
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:id="@+id/fButton3"
+            android:text="Conduzir com Mbela"
+            android:shadowColor="@color/fbutton_color_concrete"
+            android:textColor="#fff"
+            android:background="@drawable/button"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/ic_directions_car_black_24dp"
+            />
+
+
+    </LinearLayout>
+</ScrollView>

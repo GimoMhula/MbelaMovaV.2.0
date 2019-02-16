@@ -1,0 +1,129 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.SignUpFragment"
+    android:orientation="vertical"
+    android:background="@drawable/green_gradient">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+
+        <ImageView
+            android:id="@+id/sign_up_image"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/ic_person_black_24dp" />
+
+        <!-- *******************************Horizontal ScrollView ********************************** -->
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="8dp">
+
+            <LinearLayout
+                android:id="@+id/gallery"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"></LinearLayout>
+
+        </HorizontalScrollView>
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="25dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/sign_up_name_text"
+                android:layout_width="245dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/edit_rounded"
+                android:drawablePadding="12dp"
+                android:ems="10"
+                android:fontFamily="sans-serif"
+                android:hint="Nome"
+                android:inputType="text"
+                android:maxLines="1"
+                android:padding="8dp"
+                android:textColorHint="#737876"
+
+                />
+
+
+            <EditText
+                android:id="@+id/sign_up_surname_text"
+                android:layout_width="245dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_rounded"
+                android:drawablePadding="12dp"
+                android:layout_marginTop="8dp"
+                android:ems="10"
+                android:fontFamily="sans-serif-condensed"
+                android:hint="Apelido"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:padding="8dp"
+                android:textColorHint="#737876" />
+
+            <EditText
+                android:id="@+id/sign_up_email_text"
+                android:layout_width="245dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/edit_rounded"
+                android:drawablePadding="12dp"
+                android:ems="10"
+                android:fontFamily="sans-serif-condensed"
+                android:hint="E-mail"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:padding="8dp"
+                android:textColorHint="#737876" />
+
+            <CheckBox
+                android:id="@+id/sign_up_is_driver_check"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Entrar como motorista"
+                android:layout_marginTop="18dp"
+                android:textStyle="bold"
+                android:textColor="#FFF"
+                />
+
+            <Button
+                android:id="@+id/sign_up_btn"
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:layout_width="246dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="44dp"
+                android:layout_weight="0.15"
+                android:background="@drawable/transparent_button"
+                android:textStyle="bold"
+                android:text="Submeter"
+                android:textColor="#FFFF" />
+
+        </LinearLayout>
+
+        </ScrollView>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

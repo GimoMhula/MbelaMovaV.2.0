@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.SettingsFragment"
+    android:background="@color/colorWhite">
+
+    <ScrollView android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:orientation="horizontal"
+                android:clickable="true"
+                android:background="#f1eaea">
+
+                <TextView
+                    android:id="@+id/definition_field"
+                    android:clickable="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="  Definições"
+                    android:textColor="#000"
+                    android:drawableLeft="@drawable/ic_menu_black_24dp"
+                    android:textSize="24sp"
+                    android:layout_marginLeft="5dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <!--Quebra-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#b6b2b2"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:id="@+id/settings_pessoal_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pessoal"
+                    android:layout_marginLeft="8dp"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+            <!--Cena nova-->
+            <LinearLayout
+                android:id="@+id/name_field"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#f1eaea"
+                android:clickable="true">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_person_black_24dp"
+                    android:clickable="true"
+                    android:text=""
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/settings_user_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:text="Mbela demo"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="8dp" />
+
+                    <TextView
+                        android:id="@+id/sign_up_date"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Desde Junho de 2018"
+
+                        android:layout_marginLeft="8dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#000"></View>
+            <!-- Fim Cena nova-->
+
+            <!--Inicio de uma cena-->
+            <LinearLayout
+                android:id="@+id/email_field"
+                android:layout_width="match_parent"
+                android:clickable="true"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:background="#FFF1EAEA">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_email_black_24dp"
+                    android:clickable="true"
+                    android:text=""
+                    android:textStyle="bold"
+                    android:gravity="center_vertical"
+                    android:layout_gravity="center_vertical"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="5dp" />
+
+                <TextView
+                    android:id="@+id/user_email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="mbelademo@gmail.com"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="8dp"
+                    android:gravity="center_vertical"
+                    android:layout_gravity="center_vertical" />
+
+            </LinearLayout>
+            <!--Fim da cena-->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#000"></View>
+
+            <!--Inicio de uma cena-->
+            <LinearLayout
+                android:id="@+id/phone_field"
+                android:layout_width="match_parent"
+                android:clickable="true"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:background="#FFF1EAEA">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_contact_phone_black_24dp"
+                    android:layout_gravity="center_vertical"
+                    android:clickable="true"
+                    android:text=""
+                    android:textStyle="bold"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/settings_user_contact"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="+258 841234567"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="8dp"
+                    android:gravity="center_vertical"
+                    android:layout_gravity="center_vertical" />
+
+            </LinearLayout>
+            <!--Fim da cena-->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#000"></View>
+
+
+            <!--Quebra-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                android:background="#b6b2b2">
+
+                <TextView
+                    android:id="@+id/settings_geral_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Geral"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="5dp"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+          <!--  Inicio de uma cena
+            <LinearLayout
+                android:id="@+id/exibition_field"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:clickable="true"
+                android:background="#FFF1EAEA">
+
+
+                <TextView
+                    android:id="@+id/settings_exhibition"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Exibição e som"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="8dp"
+                    android:gravity="center_vertical"
+                    android:layout_gravity="center_vertical" />
+
+            </LinearLayout>
+            Fim da cena-->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#000"></View>
+
+            <LinearLayout
+                android:id="@+id/notification_field"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:clickable="true"
+                android:background="#FFF1EAEA">
+
+
+                <TextView
+                    android:id="@+id/settings_notification"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Notificações"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="8dp"
+                    android:gravity="center_vertical"
+                    android:layout_gravity="center_vertical" />
+
+            </LinearLayout>
+            <!--Fim da cena-->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#000"></View>
+
+            <!--Inicio de uma cena-->
+            <LinearLayout
+                android:id="@+id/privacy_field"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:clickable="true"
+                android:orientation="horizontal"
+                android:background="#FFF1EAEA">
+
+
+                <TextView
+                    android:id="@+id/settings_privacy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Privacidade e segurança"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="8dp"
+                    android:gravity="center_vertical"
+                    android:layout_gravity="center_vertical" />
+
+            </LinearLayout>
+            <!--Fim da cena-->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#000"></View>
+
+            <!--Inicio de uma cena-->
+            <LinearLayout
+                android:id="@+id/logout_field"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:clickable="true"
+                android:orientation="horizontal"
+                android:background="#FFF1EAEA">
+
+
+                <TextView
+                    android:id="@+id/settings_logout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Logout"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="8dp"
+                    android:gravity="center_vertical"
+                    android:layout_gravity="center_vertical" />
+
+            </LinearLayout>
+            <!--Fim da cena-->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#000"></View>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/footer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <!--Inicio de uma cena-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:background="#b6b2b2"
+            android:gravity="center_horizontal"
+            android:layout_gravity="bottom">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="Versão 1.0"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+        <!--Fim da cena-->
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

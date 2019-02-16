@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    android:layout_margin="50dp"
+    android:layout_gravity="center_horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Mbela Mova"
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:layout_marginStart="15dp"
+
+                 />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:text="9001"
+
+
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <!--Container do numero-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+258 84"
+            android:textSize="30dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5204801"
+            android:textSize="30dp"
+            />
+
+    </LinearLayout>
+    <!--Fim do container-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Insira o valor a recarregar na sua conta Mbela"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:textSize="17sp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp">
+
+    <EditText
+        android:id="@+id/valor_a_recarregar"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:textSize="25dp"
+        android:editable="false"
+
+
+        />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="MT"
+            android:textSize="25sp"/>
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/recarregar_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_selector"
+        android:text="Pagar com m-pesa"
+        android:textColor="#fff"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center_horizontal"
+        />
+
+</LinearLayout>
